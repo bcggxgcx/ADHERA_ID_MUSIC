@@ -8,9 +8,9 @@ if os.path.exists(".env"):
     load_dotenv(".env")
 
 # Necessary Vars
-API_ID = int(os.getenv("API_ID", "6"))
-API_HASH = os.getenv("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
-SESSION = os.getenv("SESSION")
+API_ID = int(os.getenv("API_ID", "13949344"))
+API_HASH = os.getenv("API_HASH", "408723003ad67fa8ab01ccc7f53e24ad")
+SESSION = os.getenv("SESSION", "BAAwsHAmAK4Dz1hikUduCrzYXuorZuRgxIBOjoy_RPD_WUtDiNcbUd_dpHbFzlQwmm-6JGkEm9Khy2FWVdaL7SuT1flIG9hRt0LPrb1xy2mWNc9n7uHTsEropKw8_CqGunoACCAVC-2n5-XGRoOPUSc3UKExmx1gfpYJhnFZ4V4x5xZOFKtaaVBdfu1lIh5YxGjbWLjdVLTsjSubYl883p6NYV8VSh2-ASNuG0-02XmImxMpLZAXChESZcYrkcivL0D6ikiomYxuzGrCwY0SEL2WQYTmef_wbSSKeRq-r8pRoxMHfTFRHALthy3ny5HFvIgmvox1ITQvTGa-04c4z5wGAAAAAYXLxXsA")
 HNDLR = os.getenv("HNDLR", "/")
 GROUP_MODE = os.getenv("GROUP_MODE", "True")
 
